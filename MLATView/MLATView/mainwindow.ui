@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MLATView</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action_4"/>
+    <addaction name="separator"/>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="action_13"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Помощь</string>
+    </property>
+    <addaction name="action_11"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Алгоритмы</string>
+    </property>
+    <addaction name="action_12"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Открыть список сенсоров</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Закрыть список сенсоров</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Задать координаты сенсоров вручную</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Задать координаты сенсоров вручную</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Алгоритм Бэнкрофта оригинальный</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Алгоритм Бэнкрофта Тамилова</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Метод Ньютона Рэфсона</string>
+   </property>
+  </action>
+  <action name="action_T_SVD">
+   <property name="text">
+    <string>Алгоритм T-SVD</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Алгоритм Тихонова</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Алгортитм Тихонова 2</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Открыть карту</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Бэнкрофт оригинальный</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
